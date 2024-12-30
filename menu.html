@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="web.js"></script>
+        <title>
+            Menu
+        </title>
+    </head>
+    <body>
+        <nav class="navbar change">
+            <div class="nav-item">
+                <a href="index.html"  onmouseover="mouseover(this)" onmouseout="mouseout(this)" >Home</a>
+                <a href="menu.html" onmouseover="mouseover(this)" onmouseout="mouseout(this)"  >Menu</a>
+               
+                <a href="Contact.html"  onmouseover="mouseover(this)" onmouseout="mouseout(this)">Contact Us</a>
+                <a href="locations.html"  onmouseover="mouseover(this)" onmouseout="mouseout(this)">Locations</a>
+                
+            <div  class="float-right">
+                <a class="btn btn-primary" href="cart.html"  onmouseover="mouseover(this)" onmouseout="mouse(this)">Cart</a>
+                 
+            </div>
+        </nav>
+        <div>
+            <img   src="./asset/backgroundimage.png" alt="">
+        </div>
+        <div class="row ">
+            <div  class="card img-size">
+             <img src="./asset/hazelnut.png"  alt="pic" >
+             <div>
+                <hr>
+                <p>Hazelnut Signature Latte</p>
+                <p>Rs 978</p>
+                <button class="btn2" onclick="addToCart('Hazelnut Signature Latte')">Add to Cart</button>
+             </div>
+            </div>
+            <div class="card img-size">
+                <img src="./asset/Cappuccino.png" alt="">
+                <div>
+                    <hr>
+                    <p>Vanilla Latte</p>
+                    <p>Rs 978</p>
+                    <button class="btn2" onclick="addToCart('Vanilla Latte')">Add to Cart</button>
+                 </div>
+            </div>
+            <div class="card img-size">
+                <img src="./asset/cafelatte.png" alt=""  >
+                <div>
+                    <hr>
+                    <p>Cafe Latte</p>
+                    <p>Rs 978</p>
+                    <button class="btn2" onclick="addToCart('Cafe Latte')">Add to Cart</button>
+                 </div>
+            </div>
+            <br>
+        </div>
+        <div class="row">
+        <div  class="card img-size">
+            <img src="./asset/creamy.png" alt="">
+            <div>
+               <hr>
+               <p>Creamy Frrrozen Hot Chocolate</p>
+               <p>Rs 999</p>
+               <button class="btn2" onclick="addToCart('Creamy Frrrozen Hot Chocolate')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="card img-size">
+            <img src="./asset/mocca mania.png" alt="">
+            <div>
+                <hr>
+                <p>Mocca Mania</p>
+                <p>Rs 876</p>
+                <button class="btn2" onclick="addToCart('Mocca Mania')">Add to Cart</button>
+            </div>
+        </div>
+        
+        <div class="card img-size">
+            <img src="./asset/cookie crumble.png" alt="">
+            <div>
+                <hr>
+                <p>Cookies Crumble</p>
+                <p>Rs 850</p>
+                <button class="btn2" onclick="addToCart('Cookies Crumble')">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

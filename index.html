@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+   
+</head>
+<body>
+    <nav class="navbar change">
+        <div class="nav-item change-color">
+            <a  href="index.html"  onmouseover="mouseover(this)" onmouseout="mouseout(this)" >Home</a>
+            <a href="menu.html"  onmouseover="mouseover(this)" onmouseout="mouseout(this)" >Menu</a>
+            <a href="Contact.html"  onmouseover="mouseover(this)" onmouseout="mouseout(this)" >Contact Us</a>
+            <a href="locations.html"  onmouseover="mouseover(this)" onmouseout="mouseout(this)" >Locations</a>
+            
+        <div  class="float-right">
+        
+            <a href="cart.html" class="btn btn-primary"  onmouseover="mouseover(this)" onmouseout="mouse(this)" >Cart</a>
+             
+        </div>
+    </nav>
+    <div>
+        <img   src="./asset/backgroundimage.png" alt="">
+    </div>
+        <main class="indexmain"> 
+            <img src="./asset/chillers.webp" class="slide" alt="">
+            <img src="./asset/offer.webp" class="slide" alt="">
+            <img src="./asset/basket.webp" class="slide" alt="">
+        </main> 
+        <script src="web.js"></script>
+    <div class="n">
+        <button onclick="goprev()">
+             &#10094
+        </button>
+        <button onclick="gonext()">
+          &#10095
+        </button>
+    </div>
+</body>
+</html>
